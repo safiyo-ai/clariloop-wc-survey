@@ -5,13 +5,16 @@
             return;
         }
 
+        const clariloopConfig = window.clariloopSurveyConfig;
+
         Clariloop.renderSurvey({
-            apiKey: window.clariloopSurveyConfig.apiKey,
-            customerId: window.clariloopSurveyConfig.customerId,
-            orderId: window.clariloopSurveyConfig.orderId,
-            email: window.clariloopSurveyConfig.email,
+            apiKey: clariloopConfig.apiKey,
+            customerId: clariloopConfig.customerId,
+            orderId: clariloopConfig.orderId,
+            email: clariloopConfig.email,
             containerId: 'clariloop-survey-container',
-            displayMode: window.clariloopSurveyConfig.displayMode || 'inline'
+            displayMode: clariloopConfig.displayMode || 'inline',
+            position: clariloopConfig.position,
         });
     });
 })();
