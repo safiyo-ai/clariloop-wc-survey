@@ -1,0 +1,38 @@
+# IDE & Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+
+# Node & Build
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env-example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Package managers
+yarn-error.log
+npm-debug.log
+.pnpm-debug.log
+
+# Testing
+phpunit.xml
+.phpunit.result.cache
+
+# Composer
+vendor/
+composer.phar
+composer.lock
