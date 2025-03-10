@@ -202,7 +202,7 @@ class Clariloop_Survey {
         $customer_id = $order->get_customer_id() ?: 'guest-' . $order_id;
 
         // Add survey container
-        echo '<div class="clariloop-survey-container"></div>';
+        echo '<div class="clariloop-survey-container" id="clariloop-survey-container"></div>';
 
         // Enqueue Clariloop SDK
         wp_enqueue_script(

@@ -15,6 +15,7 @@
             containerId: 'clariloop-survey-container',
             displayMode: clariloopConfig.displayMode || 'inline',
             position: clariloopConfig.position,
+            metadata: clariloopSurveyConfig.metadata || {}
         });
     });
 })();
