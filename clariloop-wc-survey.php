@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('CLARILOOP_SURVEY_VERSION', '1.0.0');
+define('CLARILOOP_SURVEY_VERSION', '0.1.0');
 define('CLARILOOP_SURVEY_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('CLARILOOP_SURVEY_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('CLARILOOP_SURVEY_SDK_URL', 'https://cdn.jsdelivr.net/npm/@clariloop/survey/dist/survey.min.js');
