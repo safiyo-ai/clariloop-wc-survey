@@ -3,7 +3,7 @@
  * Plugin Name: Clariloop Survey for WooCommerce
  * Plugin URI: https://github.com/safiyo-ai/clariloop-wc-survey
  * Description: Displays customer satisfaction surveys after WooCommerce checkout using Clariloop Survey SDK
- * Version: 1.0.0
+ * Version: 0.0.0
  * Author: Richie Nabuk
  * Author URI: https://github.com/richienabuk
  * Text Domain: clariloop-wc-survey
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
 define('CLARILOOP_SURVEY_VERSION', '1.0.0');
 define('CLARILOOP_SURVEY_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('CLARILOOP_SURVEY_PLUGIN_URL', plugin_dir_url(__FILE__));
-define('CLARILOOP_SURVEY_SDK_URL', 'https://cdn.jsdelivr.net/npm/clariloop-test-sdk/dist/survey.min.js');
+define('CLARILOOP_SURVEY_SDK_URL', 'https://cdn.jsdelivr.net/npm/@clariloop/survey/dist/survey.min.js');
 
 // Main plugin class
 class Clariloop_Survey {

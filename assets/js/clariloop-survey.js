@@ -7,7 +7,7 @@
 
         const clariloopConfig = window.clariloopSurveyConfig;
 
-        Clariloop.renderSurvey({
+        Clariloop.init({
             apiKey: clariloopConfig.apiKey,
             customerId: clariloopConfig.customerId,
             orderId: clariloopConfig.orderId,
